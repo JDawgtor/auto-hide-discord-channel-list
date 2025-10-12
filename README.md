@@ -36,7 +36,9 @@ A simple bit of CSS code that will hide the server list when the window is resiz
 
 This is just a simple bit of CSS code and can be applied in many ways.
 
-## Web Chrome Extensions (Stylus or Stylebot)
+## Instructions
+
+### Web Chrome Extensions (Stylus or Stylebot)
 
 First, copy the CSS code above.
 
@@ -52,16 +54,14 @@ First, copy the CSS code above.
 2. Click the button at the bottom of the window pop up and switch from "Basic" "<> Code"
 3. Paste the CSS in the empty text box.
 
-## 3rd Party Discord Clients (for the Discord app)
+### 3rd Party Discord Clients (for the Discord app)
 
-### Vencord
+#### Vencord
 
 Online Theme Link
 ```
 https://raw.githubusercontent.com/JDawgtor/auto-hide-discord-channel-list/refs/heads/main/auto-hide-server-list.theme.css
 ```
-
-**Instructions**
 
 1. Copy the above link.
 2. Open Discord.
@@ -74,7 +74,7 @@ By installing via Online Themes, any new updates to the code will automatically 
 
 If you prefer to be installed locally on your machine, follow the below steps for BetterDiscord, but in the Vencord "Local Themes" section.
 
-### BetterDiscord
+#### BetterDiscord
 
 1. Download the auto-hide-discord-channel-list.css file.
 2. Open Discord.
