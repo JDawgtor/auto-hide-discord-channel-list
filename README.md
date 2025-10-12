@@ -7,19 +7,19 @@ A simple bit of CSS code that hides the channel list when the window is resized.
 ## Code
 ```css
 @media (max-width: 1000px) {
+
     /* Default (hidden) */
     .sidebarList_c48ade {
         width: 0;
-        min-width: 0;                                /* Prevents Discord from forcing a width.*/
-    /* smooth animation */
+        min-width: 0;                            /* Prevents Discord from forcing a width*/
     }
     .buttons__37e49 {
-        display: none;                               /* Hide buttons by profile.*/
+        display: none;                           /* Hide buttons by profile*/
     }
 
     /* On hover of parent, expand */
     .sidebar_c48ade:hover .sidebarList_c48ade {
-        width: 300px;                                /*Or whatever width you want.*/
+        width: 300px;                            /*Or whatever width you want*/
         min-width: 100px;
     }  
     .sidebar_c48ade:hover .buttons__37e49 {
@@ -27,10 +27,10 @@ A simple bit of CSS code that hides the channel list when the window is resized.
     }
 }
 
-/* Smooth transition control */
+/* Smooth animation control */
 .sidebarList_c48ade {
-    overflow: hidden;                               /*Hides inner content while closed */
-    transition: width 0.25s ease;                   /*Animation speed, and animation interpolation control.*/
+    overflow: hidden;                            /*Hides inner content while closed */
+    transition: width 0.25s ease;                /*Animation speed, and animation interpolation control*/
 }
 ```
 
