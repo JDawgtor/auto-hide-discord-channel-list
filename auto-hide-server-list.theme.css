@@ -1,17 +1,25 @@
+/**
+ * @name Auto Hide Server List
+ * @author JDawgtor
+ * @version 1.0
+ * @description A simple bit of CSS code that hides the channel list when the window is resized. The channel list will reappear when you hover your mouse over the server list.
+ * @website https://github.com/JDawgtor/auto-hide-discord-channel-list
+*/
+
 @media (max-width: 1000px) {
+
     /* Default (hidden) */
     .sidebarList_c48ade {
         width: 0;
-        min-width: 0;                                /* Prevents Discord from forcing a width.*/
-    /* smooth animation */
+        min-width: 0;                            /* Prevents Discord from forcing a width*/
     }
     .buttons__37e49 {
-        display: none;                               /* Hide buttons by profile.*/
+        display: none;                           /* Hide buttons by profile*/
     }
 
     /* On hover of parent, expand */
     .sidebar_c48ade:hover .sidebarList_c48ade {
-        width: 300px;                                /*Or whatever width you want.*/
+        width: 300px;                            /*Or whatever width you want*/
         min-width: 100px;
     }  
     .sidebar_c48ade:hover .buttons__37e49 {
@@ -19,8 +27,8 @@
     }
 }
 
-/* Smooth transition control */
+/* Smooth animation control */
 .sidebarList_c48ade {
-    overflow: hidden;                               /*Hides inner content while closed */
-    transition: width 0.25s ease;                   /*Animation speed, and animation interpolation control.*/
+    overflow: hidden;                            /*Hides inner content while closed */
+    transition: width 0.25s ease;                /*Animation speed, and animation interpolation control*/
 }
