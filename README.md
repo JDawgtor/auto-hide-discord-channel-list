@@ -79,7 +79,7 @@ https://vencord.dev
 
 Online Theme Link
 ```
-https://raw.githubusercontent.com/JDawgtor/auto-hide-discord-channel-list/refs/heads/main/auto-hide-server-list.theme.css
+https://raw.githubusercontent.com/JDoinkus/auto-hide-discord-channel-list/refs/heads/main/auto-hide-server-list.theme.css
 ```
 
 1. Copy the above link.
